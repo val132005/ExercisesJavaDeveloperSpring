@@ -4,12 +4,15 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean name="emp" class="com.val132005.spring.firstExercise.Employee">
-        <property name="id" value="1"/>
+    <bean name="hospital" class="com.val132005.spring.list.Hospital">
+        <property name="name" value="Hospital OMS"/>
+        <property name="departments" >
+            <list>
+                <value>Department 1</value>
+                <value>Department 2</value>
+                <value>Department 3</value>
 
-
-        <property name="name">
-            <value>Valentina</value>
+            </list>
         </property>
 
     </bean>

@@ -4,12 +4,15 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean name="emp" class="com.val132005.spring.firstExercise.Employee">
-        <property name="id" value="1"/>
-
-
-        <property name="name">
-            <value>Valentina</value>
+    <bean name="car" class="com.val132005.spring.set.CarDealer">
+        <property name="name" value="Automovil"/>
+        <property name="models">
+            <set>
+                <value>Model 1</value>
+                <value>Model 1</value>
+                <value>Model 2</value>
+                <value>Model 3</value>
+            </set>
         </property>
 
     </bean>

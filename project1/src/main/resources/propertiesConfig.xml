@@ -4,13 +4,17 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean name="emp" class="com.val132005.spring.firstExercise.Employee">
-        <property name="id" value="1"/>
+    <bean name="countries" class="com.val132005.spring.properties.Country">
+        <property name="countryAndLangs">
+            <props>
+                <prop key="Colombia">Spanish</prop>
+                <prop key="Argentina">Spanish</prop>
+                <prop key="Mexico">Spanish</prop>
+                <prop key="USA">English</prop>
+            </props>
 
-
-        <property name="name">
-            <value>Valentina</value>
         </property>
+
 
     </bean>
 

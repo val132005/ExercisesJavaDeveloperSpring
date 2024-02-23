@@ -1,5 +1,6 @@
-package com.val132005.spring;
+package com.val132005.spring.firstExercise;
 
+import com.val132005.spring.firstExercise.Employee;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Test {

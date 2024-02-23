@@ -1,4 +1,4 @@
-package com.val132005.spring;
+package com.val132005.spring.firstExercise;
 
 public class Employee {
 
